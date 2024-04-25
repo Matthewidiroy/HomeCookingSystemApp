@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  margin-top: 60px;
+  min-height: calc(100vh - 60px);
+  display: flex;
+}
+ul li{
+  list-style: none;
+}
+button{
+  font-size: 20px;
+  padding: 5px 20px;
+  background-color: orange;
+  font-weight: bold;
+  border: solid 2px black;
+}
+button:hover{
+  background-color: darkorange;
+  cursor: pointer;
+}
